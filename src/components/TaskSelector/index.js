@@ -17,7 +17,6 @@ function TaskSelector ({ tasks, dispatch }) {
       chosenIndex = Math.floor(Math.random() * tasks.length);
     }
     setChosen(tasks[chosenIndex]);
-    console.log("Selected task", chosenIndex);
   }
 
   return <div>
